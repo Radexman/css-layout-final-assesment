@@ -1,0 +1,44 @@
+.logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    outline: 1px solid #000;
+}
+
+nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        li {
+            flex: 1;
+            text-align: center;
+
+            &:hover {
+                background-color: #222;
+                cursor: pointer;
+                transition: all .3s;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                padding: .5em 1em;
+            }
+        }
+
+
+    }
+}

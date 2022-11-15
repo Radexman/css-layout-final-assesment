@@ -1,0 +1,41 @@
+@import './config';
+@import './navigation';
+@import './querries';
+
+body {
+    background-color: $clr-bg;
+    color: $clr-txt;
+    margin: 0;
+    font: 1.2rem / 1.2 Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    outline: 1px solid #000;
+}
+
+.photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1px;
+}
+
+article {
+    display: flow-root;
+}
+
+.feature {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
