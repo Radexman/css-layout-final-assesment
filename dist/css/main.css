@@ -8,6 +8,7 @@
 
 nav {
   background-color: #000;
+  font-size: 0.6rem;
   padding: 0.5em;
   position: sticky;
   top: 0;
@@ -53,6 +54,9 @@ nav ul li a {
   }
   .photos {
     grid-template-columns: 1fr;
+  }
+  nav {
+    font-size: 1.2rem;
   }
 }
 body {
